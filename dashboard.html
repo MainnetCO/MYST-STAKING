@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MYST Dashboard</title>
+    <meta name="author" content="MYST" />
+    <meta name="description" content="MYST" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.ico" sizes="48x48"/>
+    <!-- all css here -->
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"/>
+    <!-- mCustomScrollbar css -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+      <!-- Start Header Area -->
+      <header class="header">
+        <div class="header__logo">
+          <a href="dashboard.html">
+            <img src="images/logo.svg" alt="MYST" />
+          </a>
+        </div>
+        <div class="navbar-toggler">
+          <span class="navbar-toggler-icon"></span>
+        </div>
+        <div class="header__menu">
+          <nav role="navigation">
+            <ul class="header__navbar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">TWITTER</a></li>
+              <li><a href="#">DISCORD</a></li>
+              <li><a href="#">TELEGRAM</a></li>
+              <li><a href="#">CALCULATOR</a></li>
+              <li><a href="#">LITEPAPER</a></li>
+              <li><a href="#">EMAIL</a></li>
+            </ul>
+          </nav>
+          <div class="header__btn">
+            <a href="#">0x12r45... 6HJ9</a>
+          </div>
+        </div>
+      </header>
+      <!-- End Header Area -->
+      <!-- Start Main Area -->
+      <main role="main">
+        <div class="main-container">
+          <div class="aside-block">
+            <!-- Start Wallet -->
+            <div class="aside__single">
+              <h3>Wallet</h3>
+              <div class="aside__single-blocks">
+                <div class="aside__single-block">
+                  <h4>BUSD Balance</h4>
+                  <span>2,530</span>
+                </div>
+                <div class="aside__single-block">
+                  <h4>$MYST Balance</h4>
+                  <span>225,530</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Wallet -->
+            <!-- Start Staked Funds -->
+            <div class="aside__single aside__single--stacked">
+              <h3>Staked Funds</h3>
+              <div class="aside__single-blocks">
+                <div class="aside__single-block">
+                  <h2><span>TVL</span> 1,265,530 BUSD</h2>
+                  <h2><span>Total Investors</span> 4585</h2>
+                </div>
+                <div class="aside__single-block">
+                  <h2><span>Claimable Rewards</span> 1,530 BUSD</h2>
+                  <h2><span>Unlocked Capital</span> 4585 BUSD</h2>
+                </div>
+              </div>
+            </div>
+            <!-- End Staked Funds -->
+            <!-- Start Deposit -->
+            <div class="aside__single aside__single--deposit">
+              <h3>Deposit</h3>
+              <div class="aside__single-blocks">
+                <div class="deposit-header">
+                  <span>Balance</span>
+                  <span>5,404 BUSD</span>
+                </div>
+                <div class="deposit-amount">
+                  <div class="amount-btn">
+                    <select class="vodiapicker">
+                      <option value="busd" data-thumbnail="images/busd-icon.svg">BUSD</option>
+                      <option value="mxst" data-thumbnail="images/myst-icon.svg">MXST</option>
+                    </select>
+                    <div class="lang-select">
+                      <button class="btn-select" value=""></button>
+                      <div class="b">
+                        <ul id="a"></ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="amount-text">Amount</div>
+                  <div class="deposit-btn">
+                    <a href="#">Deposit</a>
+                  </div>
+                </div>
+                <ul class="withdraw-list">
+                  <li>
+                    <a href="#">WITHDRAW</a>
+                  </li>
+                  <li>
+                    <a href="#">Withdraw + deposit</a>
+                  </li>
+                  <li>
+                    <a href="#">CLAIM Reward</a>
+                  </li>
+                  <li>
+                    <a href="#">CLAIM + COMPOUND</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Deposit -->
+          </div>
+          <div class="main-block">
+            <h3>History</h3>
+            <!-- Start Main Block For Desktop View -->
+            <div class="main-block__wrapper mCustomScrollbar">
+              <div class="main-block__header">
+                <div class="main-block__header-data">Date & Time</div>
+                <div class="main-block__header-data">Deposit Amount</div>
+                <div class="main-block__header-data">Tx ID</div>
+                <div class="main-block__header-data">Capital Release</div>
+              </div>
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">24/08/2022 22:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123654</div>
+                <div class="main-block__header-data">28 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">23/08/2022 07:15</div>
+                <div class="main-block__header-data">100.20546 MXST</div>
+                <div class="main-block__header-data">123352</div>
+                <div class="main-block__header-data">27 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">22/08/2022 12:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123103</div>
+                <div class="main-block__header-data">26 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">21/08/2022 22:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123654</div>
+                <div class="main-block__header-data">25 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">20/08/2022 07:15</div>
+                <div class="main-block__header-data">100.20546 MXST</div>
+                <div class="main-block__header-data">123352</div>
+                <div class="main-block__header-data">24 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">19/08/2022 12:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123103</div>
+                <div class="main-block__header-data">23 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">18/08/2022 22:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123654</div>
+                <div class="main-block__header-data">22 DAYS</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">17/08/2022 07:15</div>
+                <div class="main-block__header-data">100.20546 MXST</div>
+                <div class="main-block__header-data">123352</div>
+                <div class="main-block__header-data">1 DAY</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">16/08/2022 12:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123103</div>
+                <div class="main-block__header-data">0 DAY</div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__content">
+                <div class="main-block__header-data">15/08/2022 22:10</div>
+                <div class="main-block__header-data">100.20546 BUSD</div>
+                <div class="main-block__header-data">123654</div>
+                <div class="main-block__header-data"><a href="#">REDEPOSIT</a></div>
+              </div>
+              <!-- End Single Data -->
+            </div>
+            <!-- End Main Block For Desktop View -->
+            <!-- Start Main Block For Mobile View -->
+            <div class="main-block__wrapper-mobile">
+              <!-- Start Single Data -->
+              <div class="main-block__mobile-single">
+                <div class="main-block__header">
+                  <div class="main-block__header-data">24/08/2022 22:10</div>
+                  <div class="main-block__header-data">Deposit Amount</div>
+                  <div class="main-block__header-data">Tx ID</div>
+                  <div class="main-block__header-data">Capital Release</div>
+                </div>
+                <div class="main-block__content">
+                  <div class="main-block__header-data">100.20546 BUSD</div>
+                  <div class="main-block__header-data">123654</div>
+                  <div class="main-block__header-data">28 DAYS</div>
+                </div>
+              </div>
+              <!-- End Single Data -->
+              <!-- Start Single Data -->
+              <div class="main-block__mobile-single">
+                <div class="main-block__header">
+                  <div class="main-block__header-data">23/08/2022 22:10</div>
+                  <div class="main-block__header-data">Deposit Amount</div>
+                  <div class="main-block__header-data">Tx ID</div>
+                  <div class="main-block__header-data">Capital Release</div>
+                </div>
+                <div class="main-block__content">
+                  <div class="main-block__header-data">100.20546 MXST</div>
+                  <div class="main-block__header-data">123352</div>
+                  <div class="main-block__header-data">27 DAYS</div>
+                </div>
+              </div>
+              <!-- End Single Data -->
+            </div>
+            <!-- End Main Block For Mobile View -->
+          </div>
+        </div>
+      </main>
+      <!-- End Main Area -->
+      <!-- Start Footer Area -->
+      <footer class="footer">
+        <div class="footer__social-link">
+            <a href="https://twitter.com/MYSTFinance" target="_blank">
+              <svg width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35 3.32131C33.7129 3.88257 32.3302 4.2618 30.8766 4.43321C32.3765 3.55005 33.4986 2.16006 34.0335 0.522605C32.6244 1.34627 31.0822 1.92605 29.4739 2.23672C28.3924 1.10034 26.9599 0.347138 25.3989 0.0940371C23.8378 -0.159063 22.2355 0.102103 20.8407 0.836989C19.4459 1.57188 18.3367 2.73937 17.6852 4.1582C17.0338 5.57703 16.8765 7.16783 17.238 8.6836C14.3827 8.54252 11.5895 7.81221 9.03967 6.54006C6.48981 5.26791 4.24026 3.48235 2.43702 1.29927C1.82044 2.34594 1.46591 3.55947 1.46591 4.85188C1.46522 6.01534 1.75637 7.16099 2.31352 8.18717C2.87067 9.21334 3.67659 10.0883 4.65978 10.7345C3.51954 10.6988 2.40446 10.3956 1.40734 9.85011V9.94112C1.40722 11.5729 1.9808 13.1545 3.03076 14.4175C4.08071 15.6805 5.54237 16.5472 7.16771 16.8704C6.10995 17.1521 5.00096 17.1936 3.92451 16.9917C4.38309 18.3958 5.27635 19.6236 6.47925 20.5033C7.68215 21.3829 9.13446 21.8704 10.6329 21.8974C8.08924 23.8625 4.94786 24.9284 1.71408 24.9237C1.14126 24.9238 0.56891 24.8909 0 24.8251C3.28247 26.902 7.10349 28.0043 11.0059 28C24.2161 28 31.4377 17.2329 31.4377 7.89481C31.4377 7.59142 31.43 7.28501 31.4161 6.98162C32.8209 5.98194 34.0334 4.74402 34.9969 3.32586L35 3.32131Z" fill="#797979"/>
+                </svg>
+            </a>
+            <a href="#" target="_blank">
+              <svg width="37" height="28" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.3219 2.32221C28.9632 1.24895 26.4349 0.45567 23.7911 0.00458885C23.7675 2.81255e-05 23.7431 0.00296722 23.7213 0.0129997C23.6995 0.0230322 23.6813 0.0396617 23.6693 0.0605852C23.3455 0.634547 22.9848 1.38272 22.732 1.97379C19.9279 1.55108 17.0771 1.55108 14.2731 1.97379C13.9915 1.31873 13.6739 0.680004 13.3219 0.0605852C13.31 0.0394041 13.2919 0.0223984 13.2702 0.0118375C13.2484 0.00127651 13.224 -0.00233756 13.2001 0.00147779C10.5578 0.452559 8.02951 1.24584 5.66929 2.32066C5.64898 2.32925 5.63177 2.34391 5.61995 2.36266C0.822426 9.47886 -0.492578 16.4193 0.153362 23.2726C0.155159 23.2894 0.160323 23.3056 0.168539 23.3203C0.176755 23.3351 0.187851 23.3479 0.201152 23.3582C3.00134 25.4151 6.12458 26.9821 9.44009 27.9934C9.46321 28.0006 9.48793 28.0006 9.51103 27.9934C9.53413 27.9861 9.55454 27.9721 9.56959 27.953C10.283 26.9903 10.9153 25.9689 11.4596 24.8996C11.4672 24.885 11.4715 24.8689 11.4724 24.8524C11.4732 24.836 11.4706 24.8195 11.4646 24.8042C11.4586 24.7888 11.4494 24.775 11.4376 24.7635C11.4259 24.7521 11.4118 24.7433 11.3964 24.7379C10.4005 24.3595 9.4356 23.9028 8.51049 23.3722C8.49387 23.3626 8.47986 23.349 8.46973 23.3326C8.45959 23.3162 8.45365 23.2976 8.45243 23.2783C8.4512 23.259 8.45474 23.2398 8.46273 23.2222C8.47071 23.2046 8.48288 23.1894 8.49816 23.1777C8.69241 23.0331 8.88665 22.8822 9.07164 22.7313C9.0883 22.7178 9.10836 22.7091 9.12959 22.7064C9.15082 22.7036 9.17239 22.7069 9.19189 22.7158C15.2458 25.4596 21.8024 25.4596 27.7854 22.7158C27.805 22.7063 27.8267 22.7027 27.8483 22.7051C27.8698 22.7076 27.8902 22.7161 27.9072 22.7298C28.0922 22.8822 28.2849 23.0331 28.4807 23.1777C28.4961 23.1891 28.5085 23.2042 28.5167 23.2216C28.5249 23.239 28.5288 23.2582 28.5279 23.2775C28.5269 23.2967 28.5213 23.3155 28.5115 23.332C28.5016 23.3485 28.4879 23.3623 28.4714 23.3722C27.5495 23.9072 26.5906 24.3599 25.584 24.7363C25.5685 24.742 25.5544 24.7509 25.5426 24.7625C25.5309 24.7741 25.5217 24.7881 25.5157 24.8035C25.5097 24.819 25.5071 24.8355 25.508 24.8521C25.5088 24.8687 25.5132 24.8849 25.5208 24.8996C26.0757 25.9682 26.7109 26.9855 27.4092 27.9514C27.4238 27.9712 27.444 27.9861 27.4672 27.9939C27.4903 28.0016 27.5153 28.002 27.5387 27.995C30.8599 26.9865 33.9883 25.4188 36.7915 23.3582C36.8052 23.3485 36.8167 23.336 36.8252 23.3215C36.8337 23.3071 36.8391 23.2909 36.8409 23.2742C37.6117 15.3507 35.549 8.46626 31.3697 2.36577C31.3594 2.34594 31.3425 2.33049 31.3219 2.32221ZM12.3646 19.0993C10.5424 19.0993 9.03927 17.4366 9.03927 15.3974C9.03927 13.3566 10.5131 11.6954 12.3646 11.6954C14.2299 11.6954 15.7191 13.3706 15.6898 15.3974C15.6898 17.4381 14.216 19.0993 12.3646 19.0993ZM24.659 19.0993C22.8352 19.0993 21.3337 17.4366 21.3337 15.3974C21.3337 13.3566 22.806 11.6954 24.659 11.6954C26.5243 11.6954 28.0136 13.3706 27.9843 15.3974C27.9843 17.4381 26.5259 19.0993 24.659 19.0993Z" fill="#797979"/>
+                </svg>
+            </a>
+            <a href="https://t.me/MYSTFinance" target="_blank">
+              <svg width="35" height="29" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M34.9003 2.64007L29.6186 27.2494C29.2201 28.9863 28.1809 29.4186 26.7042 28.6003L18.6566 22.7413L14.7735 26.4312C14.3438 26.8557 13.9843 27.2108 13.1561 27.2108L13.7343 19.1132L28.6497 5.7973C29.2982 5.22606 28.5091 4.90957 27.6418 5.4808L9.20267 16.9518L1.26446 14.497C-0.462254 13.9644 -0.493507 12.791 1.62387 11.9728L32.6735 0.154434C34.1111 -0.378203 35.3691 0.470928 34.9003 2.64007Z" fill="#797979"/>
+                </svg>
+            </a>
+        </div>
+        <div class="footer__social-link">
+          <a href="#" target="_blank">
+            <svg width="29" height="33" viewBox="0 0 29 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25.8929 0H3.10714C1.45 0 0 1.44375 0 3.09375V29.9062C0 31.5562 1.45 33 3.10714 33H25.8929C27.55 33 29 31.5562 29 29.9062V3.09375C29 1.44375 27.55 0 25.8929 0ZM8.28571 28.05C8.28571 28.4625 7.87143 28.875 7.45714 28.875H4.97143C4.55714 28.875 4.14286 28.4625 4.14286 28.05V25.575C4.14286 25.1625 4.55714 24.75 4.97143 24.75H7.45714C7.87143 24.75 8.28571 25.1625 8.28571 25.575V28.05ZM8.28571 19.8C8.28571 20.2125 7.87143 20.625 7.45714 20.625H4.97143C4.55714 20.625 4.14286 20.2125 4.14286 19.8V17.325C4.14286 16.9125 4.55714 16.5 4.97143 16.5H7.45714C7.87143 16.5 8.28571 16.9125 8.28571 17.325V19.8ZM16.5714 28.05C16.5714 28.4625 16.1571 28.875 15.7429 28.875H13.2571C12.8429 28.875 12.4286 28.4625 12.4286 28.05V25.575C12.4286 25.1625 12.8429 24.75 13.2571 24.75H15.7429C16.1571 24.75 16.5714 25.1625 16.5714 25.575V28.05ZM16.5714 19.8C16.5714 20.2125 16.1571 20.625 15.7429 20.625H13.2571C12.8429 20.625 12.4286 20.2125 12.4286 19.8V17.325C12.4286 16.9125 12.8429 16.5 13.2571 16.5H15.7429C16.1571 16.5 16.5714 16.9125 16.5714 17.325V19.8ZM24.8571 28.05C24.8571 28.4625 24.4429 28.875 24.0286 28.875H21.5429C21.1286 28.875 20.7143 28.4625 20.7143 28.05V17.325C20.7143 16.9125 21.1286 16.5 21.5429 16.5H24.0286C24.4429 16.5 24.8571 16.9125 24.8571 17.325V28.05ZM24.8571 11.55C24.8571 11.9625 24.4429 12.375 24.0286 12.375H4.97143C4.55714 12.375 4.14286 11.9625 4.14286 11.55V4.95C4.14286 4.5375 4.55714 4.125 4.97143 4.125H24.0286C24.4429 4.125 24.8571 4.5375 24.8571 4.95V11.55Z" fill="#797979"/>
+              </svg>
+          </a>
+          <a href="#" target="_blank">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.49 24.69"><defs><style>.cls-1{fill:#797979;}</style></defs><path class="cls-1" d="M6.37,4V.59A7.76,7.76,0,0,0,5,1.78c-.87.9-1.75,1.79-2.64,2.65a9.05,9.05,0,0,0-1,1.13H4.84A1.53,1.53,0,0,0,6.37,4Z" transform="translate(-0.76 -0.15)"/><path class="cls-1" d="M18,.15H7.37V4A2.53,2.53,0,0,1,4.84,6.56h-4a.94.94,0,0,0-.06.15V23.6a1.85,1.85,0,0,0,2,1.25c4.88,0,9.75,0,14.63,0,1.25,0,1.82-.57,1.82-1.83,0-6.94,0-13.88,0-20.82A1.86,1.86,0,0,0,18,.15ZM10.15,4.81h4.32c.56,0,.92.32.9.77s-.36.73-.9.73c-.72,0-1.44,0-2.16,0s-1.44,0-2.16,0c-.56,0-.92-.32-.9-.78S9.61,4.81,10.15,4.81ZM5.63,8.66h8.75c.62,0,1,.27,1,.73s-.35.78-1,.78H5.62c-.62,0-1-.27-1-.73S5,8.66,5.63,8.66Zm0,3.86h8.75c.64,0,1,.29,1,.78s-.37.73-1,.73H5.62c-.64,0-1-.29-1-.78S5,12.52,5.62,12.52Zm0,3.86h8.75c.64,0,1,.29,1,.77s-.37.74-1,.74H5.62c-.64,0-1-.3-1-.78S5,16.38,5.62,16.38Zm8.76,5.37H5.63c-.65,0-1-.3-1-.78s.37-.73,1-.73h8.75c.65,0,1,.29,1,.77S15,21.75,14.38,21.75Z" transform="translate(-0.76 -0.15)"/></svg>
+          </a>
+          <a href="mailto:hello@myst.fi">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.32 25"><defs><style>.cls-1{fill:#797979;}</style></defs><path class="cls-1" d="M17,15.08l-15-15A2.1,2.1,0,0,1,2.49,0H32.07Zm16.68-13V22.92A2.08,2.08,0,0,1,31.58,25H2.42A2.08,2.08,0,0,1,.34,22.92V2.09a2.32,2.32,0,0,1,.07-.52l15,15a2.12,2.12,0,0,0,1.47.6,2.09,2.09,0,0,0,1.46-.6L33.53,1.46A2,2,0,0,1,33.66,2.09ZM11.44,15.39,10,13.92,2.4,21.43v1.49H3.85Zm20.12,7.53V21.43L24,13.92l-1.47,1.47,7.59,7.53Z" transform="translate(-0.34)"/></svg>
+          </a>
+        </div>
+      </footer>
+      <!-- End Footer Area -->
+
+    <!-- All jQuery Files
+    ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
